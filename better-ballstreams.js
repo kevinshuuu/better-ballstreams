@@ -38,7 +38,6 @@ $(function() {
   addGlobalStyle('.bb-on-demand-player      { width: 100% !important; height: 100% !important; position: absolute !important; top: 0 !important; left: 0 !important; z-index: 9999 !important; }')
 
   $(".button_noninput:contains('TrueLive')").first().before(button_html)
-  $(".button_noninput:contains('Flash')").first().before(button_html)
   $('#webchat').before(iframe_padding)
   $('#iframe_padding').toggle()
 

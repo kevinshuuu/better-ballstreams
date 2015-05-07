@@ -13,7 +13,7 @@ I've only tested this script with Chrome 42, but I believe it should support all
 ##Notes
 I added this because I like to be able to see the chat and the game at the same time, but the default view's video was too small and the chat window sucks in every way possible. Hopefully you will find this useful, too. 
 
-So far I've only really tested it for specifically just the default TrueLive view. I know it doesn't work for the DVR view and will get around to adding support for that maybe during tomorrow's games, but for now I figure most people are watching in TrueLive view and I typically watch in that view, too, so that was the #1 priority. Feel free to comment on how jank the code is.
+So far I've only really tested it for specifically just the default TrueLive view. I know it doesn't work for the DVR view and will get around to adding support for that maybe during tomorrow's games, but for now I figure most people are watching in TrueLive view and I typically watch in that view, too, so that was the #1 priority. Feel free to comment on how jank the code is. :^)
 
 ##Future
 Will try to add more support for the various views on Ballstreams (such as the Live DVR mode and the On-Demand mode for when the games are over). I will probably only develop this whenever I'm watching a basketball game. :^)

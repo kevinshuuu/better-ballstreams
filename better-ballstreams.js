@@ -45,8 +45,9 @@ $(function() {
   var live_player = '#mediaplayer_wrapper'
   var dvr_bg = '#main'
   var dvr_player = 'object[name="player"]'
-  var chat_div = '#playerBottom'
-  var chat_div_hr = chat_div+'>hr'
+  var chat_div_bottom = '#playerBottom'
+  var chat_div_hr = chat_div_bottom+'>hr'
+  var chat_div_elsewhere = '#webchat-wrapper'
   
   $(truelive_button).first().before(button_html)
   $(chat_frame).before(iframe_padding_html)
@@ -61,9 +62,16 @@ $(function() {
     $('body').toggleClass('hide-scrollbar')
     $(bb_toggle).toggleClass('bb-toggle-close')
     
-    $(chat_div).toggleClass('bb-chat')
-    $(chat_div_hr).toggleClass('bb-hr')
-    $(chat_frame).toggleClass('bb-chat-iframe')
-    $(iframe_padding).toggle()
+    var player_on_bottom = $('#playerBottom>#webchat').length > 0
+    if(player_on_bottom) {
+      $(chat_div_bottom).toggleClass('bb-chat')
+      $(chat_div_hr).toggleClass('bb-hr')
+      $(chat_frame).toggleClass('bb-chat-iframe')
+      $(iframe_padding).toggle()
+    } else {
+      $(chat_div_elsewhere).toggleClass('bb-chat')
+      $(chat_frame).toggleClass('bb-chat-iframe')
+      $(iframe_padding).toggle()
+    }
   });
 });

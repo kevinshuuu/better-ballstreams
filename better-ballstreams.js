@@ -24,6 +24,7 @@ $(function() {
   var iframe_padding = '<div id="iframe_padding" style="height: 50px; width: 100%; display: flex; flex: 0 1 50px;"></div>'
 
   addGlobalStyle('.bb-player                { position: absolute !important; width: 80% !important; height: 100% !important; top: 0 !important; left: 0 !important; z-index: 99999999 !important; }')
+  addGlobalStyle('.bb-player-bg             { position: absolute !important; width: 80% !important; height: 100% !important; top: 0 !important; left: 0 !important; z-index: 99999 !important; }')
   addGlobalStyle('.bb-chat                  { position: absolute !important; width: 20% !important; height: 100% !important; bottom: 0 !important; right: 0 !important; z-index: 99999998 !important; background-color: #000; padding-top: 50px !important; display: flex; flex-flow: column; }')
   addGlobalStyle('.bb-chat-iframe           { width: 100% !important; margin-left: auto; margin-right: auto; display: flex; flex: 1 1 auto; }')
   addGlobalStyle('.bb-hr                    { height: 0px !important; }')
@@ -43,6 +44,7 @@ $(function() {
 
   $('.bb-toggle').click(function(){
     $('#mediaplayer_wrapper').toggleClass('bb-player')
+    $('#main').toggleClass('bb-player-bg')
     $('body').toggleClass('hide-scrollbar')
     $('.bb-toggle').toggleClass('bb-toggle-close')
     $('#playerBottom').toggleClass('bb-chat')

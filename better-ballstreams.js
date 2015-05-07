@@ -5,6 +5,7 @@
 // @description  Transform the default Ballstreams view into a theater mode with the video blown up to the left and the chat full height on the right.
 // @author       Kevin Shu
 // @match        http://*.ballstreams.com/live-streams/*
+// @grant        none
 // @require      https://code.jquery.com/jquery-git2.min.js
 // ==/UserScript==
 

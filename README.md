@@ -16,4 +16,4 @@ I added this because I like to be able to see the chat and the game at the same 
 Better Ballstreams is intended only to work with the TrueLive view and the DVR view, so you will not see the blue button when you're on any page other than those two.
 
 ##Donations
-Donations are gladly accepted and can be done from [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=2HH2TBYNHUDDE&lc=US&item_name=Kevin%20Shu&item_number=better%2dballstreams&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
+Donations are gladly accepted and can be done from preferrably [Square Cash](https://cash.me/$kevinshu) or [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=2HH2TBYNHUDDE&lc=US&item_name=Kevin%20Shu&item_number=better%2dballstreams&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
